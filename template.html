@@ -1,0 +1,51 @@
+
+<h1>Game</h1>
+
+<table>
+<tr><td><b>Version</b></td><td id="webStatsVersion"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>Game</b></td><td id="webStatsGame"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>Server</b></td><td id="webStatsServer"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>Name</b></td><td id="webStatsName"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>MapName</b></td><td id="webStatsMapName"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>MapSize</b></td><td id="webStatsMapSize"><!-- Dynamic content from JS --></td></tr>
+<tr><td><b>Money</b></td><td id="webStatsMoney"><!-- Dynamic content from JS --></td></tr>
+</table>
+
+<h1>Player</h1>
+
+<table id="webStatsPlayers">
+<tr><td><b>Name</b></td><td><b>Uptime</b></td><td><b>Position</b></td><td><b>Role</b></td></tr>
+<!-- Dynamic content from JS -->
+</table>
+
+<!--<h1>Mods</h1>
+
+<table id="webStatsMods">
+<tr><td><b>Mod</b></td><td><b>Author</b></td><td><b>Hash</b></td><td><b>Version</b></td></tr>
+<!-- Dynamic content from JS --
+</table> -->
+
+<h1>Vehicles</h1>
+
+<table id="webStatsVehicles">
+<tr><td><b>Name</b></td><td><b>Category</b></td><td><b>Type</b></td><td><b>FillTypes</b></td><td><b>FillLevels</b></td><td><b>Controller</b></td><td><b>Position</b></td></tr>
+<!-- Dynamic content from JS -->
+</table>
+
+<h1>Map</h1>
+
+<div id="webStatsMap" style="position:relative; width:1024px; height:1024px; overflow:auto">
+<!-- Dynamic content from JS -->
+</div>
+
+
+<br />
+
+Powered By <a href="http://www.giants-software.com/">GIANTS Software</a>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="webStats.js"></script>
+<script type="text/javascript">loadWebStats("http://108.61.253.123:18001/feed/dedicated-server-stats.xml?code=727abb5e6636298712ede57477209220", true, true);</script>
+<script type="text/javascript" src="accounting.js"></script>
+                                             
